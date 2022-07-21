@@ -39,7 +39,8 @@
     "illuminate/events": "^9.19",
     "illuminate/collections": "^9.18",
     "illuminate/redis": "^9.19",
-    "symfony/cache": "^6.1"
+    "symfony/cache": "^6.1",
+    "tinywan/validate": "^0.0.6"
     
   },
   "suggest": {

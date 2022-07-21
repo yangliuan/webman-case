@@ -12,10 +12,17 @@
  * @license   http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
+use app\api\controller\DisplayController;
 use Webman\Route;
 
+Route::group('api', function () {
+    Route::group('admin', function () {
+    });
 
+    Route::group('display', function () {
+        Route::get('asset', [DisplayController::class,'asset']);
+    });
 
-
-
-
+    Route::group('control', function () {
+    });
+});

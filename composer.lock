@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3259411f5629a034d956b2cf3da6f8f7",
+    "content-hash": "ceb0c43fdc7d9bd35a046b8cef186092",
     "packages": [
         {
             "name": "cakephp/core",
@@ -3626,6 +3626,64 @@
             "time": "2022-05-27T12:58:07+00:00"
         },
         {
+            "name": "tinywan/validate",
+            "version": "v0.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Tinywan/webman-validate.git",
+                "reference": "74852fd228b47be9b814cb9cf2eed482aab96d60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Tinywan/webman-validate/zipball/74852fd228b47be9b814cb9cf2eed482aab96d60",
+                "reference": "74852fd228b47be9b814cb9cf2eed482aab96d60",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0",
+                "workerman/webman": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helper.php"
+                ],
+                "psr-4": {
+                    "Tinywan\\Validate\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tinywan",
+                    "email": "756684177@qq.com"
+                }
+            ],
+            "description": "validate for webman plugin",
+            "keywords": [
+                "plugin",
+                "validate",
+                "webman"
+            ],
+            "support": {
+                "issues": "https://github.com/Tinywan/webman-validate/issues",
+                "source": "https://github.com/Tinywan/webman-validate/tree/v0.0.6"
+            },
+            "time": "2022-04-11T03:58:43+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v5.4.1",
             "source": {
@@ -6032,5 +6090,5 @@
         "php": ">=7.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }

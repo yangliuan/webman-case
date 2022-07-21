@@ -1,8 +1,7 @@
 <?php
 
 namespace app\model;
-
-class Devices extends BaseModel
+class Device extends BaseModel
 {
     protected $table = 'devices';
 
